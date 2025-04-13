@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #005477!important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar .nav-link:hover {
+    color: #cee2b3 !important; /
+}
+
+.hero {
+    background-color: #c8f390;
+    padding: 50px 0;
+    text-wrap: left;
+    text-emphasis-color: #35530a;
+    text-decoration-thickness: 50%;
+
+}
+
+.hero img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.hero {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    color: #005477;
+    display: flex;
+    align-items: flex-end; /* Push content to bottom */
+    padding: 40px;
+}
+
+.hero .container {
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.hero img {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+
+/* Icon Animation */
+.skills-icon {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.skills-icon:hover {
+    transform: scale(1.3);
+    color: #48e0a4 !important; /* Aqua pop color */
+}
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(72, 224, 164, 0.6);
+    transition: all 0.3s ease;
+}
+
+footer {
+    background-color: #005477 !important;
+    color: white;
+    padding: 20px 0;
+}
